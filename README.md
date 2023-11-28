@@ -135,4 +135,3 @@ There are various approaches, and it depends on what sort of site/application yo
 
   > Whichever Netlify guide you follow, be sure to do the steps fo adding a `_redirects` file to enable both React SPA
   > and React with Routing apps to work properly.
-# flight-booking
