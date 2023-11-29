@@ -1,6 +1,6 @@
 import React from "react";
-const Hotel = () => {
+function Hotel() {
   return <div>Hotel</div>;
-};
+}
 
 export default Hotel;

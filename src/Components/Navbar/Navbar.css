@@ -1,14 +1,22 @@
+:root {
+  --mx-wdth: 1170px;
+  --clr-wht: #fff;
+  --clr-grey: #d3d3d3;
+  --clr-blk: #222;
+  --clr-blue1: #003580;
+  --clr-blue2: hsl(205, 100%, 38%);
+}
 .navbar {
   height: 50px;
-  background-color: #003580;
+  background-color: var(--clr-blue1);
   display: flex;
   justify-content: center;
 }
 
 .navContainer {
   width: 100%;
-  max-width: 1024px;
-  color: white;
+  max-width: var(--mx-wdth);
+  color: var(--clr-wht);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,5 +31,5 @@
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: #003580;
+  color: var(--clr-blue1);
 }
