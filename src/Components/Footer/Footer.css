@@ -1,0 +1,32 @@
+:root {
+  --mx-wdth: 1170px;
+  --clr-wht: #fff;
+  --clr-grey: #d3d3d3;
+  --clr-blk: #222;
+  --clr-blue1: hsl(215, 100%, 25%);
+  --clr-blue2: hsl(205, 100%, 38%);
+}
+.footer {
+  padding-top: 2rem;
+  width: 100%;
+  width: var(--mx-wdth);
+  font-size: 12px;
+}
+
+.fLists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.fList {
+  list-style: none;
+  padding: 0;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: var(--clr-blue1);
+  cursor: pointer;
+}

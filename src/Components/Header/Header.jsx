@@ -199,4 +199,5 @@ const Header = ({ type }) => {
     </div>
   );
 };
+
 export default Header;

@@ -41,5 +41,4 @@ function PropertyList() {
     </div>
   );
 }
-
 export default PropertyList;
