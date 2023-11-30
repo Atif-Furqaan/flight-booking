@@ -31,7 +31,6 @@ const Header = ({ type }) => {
     children: 0,
     room: 1,
   });
-
   const navigate = useNavigate();
 
   const handleOption = (name, operation) => {
@@ -42,11 +41,9 @@ const Header = ({ type }) => {
       };
     });
   };
-
   const handleSearch = () => {
     navigate("/hotels", { state: { destination, date, options } });
   };
-
   return (
     <div className="header">
       <div
@@ -202,5 +199,4 @@ const Header = ({ type }) => {
     </div>
   );
 };
-
 export default Header;
